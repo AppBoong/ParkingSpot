@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B055BAD2B122C9400C5C78C /* ParkingSpotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BAC2B122C9400C5C78C /* ParkingSpotApp.swift */; };
+		8B055BAF2B122C9400C5C78C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BAE2B122C9400C5C78C /* ContentView.swift */; };
+		8B055BB12B122C9400C5C78C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BB02B122C9400C5C78C /* Item.swift */; };
+		8B055BB32B122C9500C5C78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B055BB22B122C9500C5C78C /* Assets.xcassets */; };
+		8B055BB62B122C9500C5C78C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B055BB52B122C9500C5C78C /* Preview Assets.xcassets */; };
+		8B055BC02B122C9500C5C78C /* ParkingSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BBF2B122C9500C5C78C /* ParkingSpotTests.swift */; };
+		8B055BCA2B122C9500C5C78C /* ParkingSpotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BC92B122C9500C5C78C /* ParkingSpotUITests.swift */; };
+		8B055BCC2B122C9500C5C78C /* ParkingSpotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B055BCB2B122C9500C5C78C /* ParkingSpotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B055BBC2B122C9500C5C78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B055BA12B122C9400C5C78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B055BA82B122C9400C5C78C;
+			remoteInfo = ParkingSpot;
+		};
+		8B055BC62B122C9500C5C78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B055BA12B122C9400C5C78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B055BA82B122C9400C5C78C;
+			remoteInfo = ParkingSpot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B055BA92B122C9400C5C78C /* ParkingSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B055BAC2B122C9400C5C78C /* ParkingSpotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotApp.swift; sourceTree = "<group>"; };
+		8B055BAE2B122C9400C5C78C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B055BB02B122C9400C5C78C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8B055BB22B122C9500C5C78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B055BB52B122C9500C5C78C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B055BBB2B122C9500C5C78C /* ParkingSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B055BBF2B122C9500C5C78C /* ParkingSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotTests.swift; sourceTree = "<group>"; };
+		8B055BC52B122C9500C5C78C /* ParkingSpotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingSpotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B055BC92B122C9500C5C78C /* ParkingSpotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotUITests.swift; sourceTree = "<group>"; };
+		8B055BCB2B122C9500C5C78C /* ParkingSpotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B055BA62B122C9400C5C78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BB82B122C9500C5C78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BC22B122C9500C5C78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B055BA02B122C9400C5C78C = {
+			isa = PBXGroup;
+			children = (
+				8B055BAB2B122C9400C5C78C /* ParkingSpot */,
+				8B055BBE2B122C9500C5C78C /* ParkingSpotTests */,
+				8B055BC82B122C9500C5C78C /* ParkingSpotUITests */,
+				8B055BAA2B122C9400C5C78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B055BAA2B122C9400C5C78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B055BA92B122C9400C5C78C /* ParkingSpot.app */,
+				8B055BBB2B122C9500C5C78C /* ParkingSpotTests.xctest */,
+				8B055BC52B122C9500C5C78C /* ParkingSpotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B055BAB2B122C9400C5C78C /* ParkingSpot */ = {
+			isa = PBXGroup;
+			children = (
+				8B055BAC2B122C9400C5C78C /* ParkingSpotApp.swift */,
+				8B055BAE2B122C9400C5C78C /* ContentView.swift */,
+				8B055BB02B122C9400C5C78C /* Item.swift */,
+				8B055BB22B122C9500C5C78C /* Assets.xcassets */,
+				8B055BB42B122C9500C5C78C /* Preview Content */,
+			);
+			path = ParkingSpot;
+			sourceTree = "<group>";
+		};
+		8B055BB42B122C9500C5C78C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B055BB52B122C9500C5C78C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B055BBE2B122C9500C5C78C /* ParkingSpotTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B055BBF2B122C9500C5C78C /* ParkingSpotTests.swift */,
+			);
+			path = ParkingSpotTests;
+			sourceTree = "<group>";
+		};
+		8B055BC82B122C9500C5C78C /* ParkingSpotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B055BC92B122C9500C5C78C /* ParkingSpotUITests.swift */,
+				8B055BCB2B122C9500C5C78C /* ParkingSpotUITestsLaunchTests.swift */,
+			);
+			path = ParkingSpotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B055BA82B122C9400C5C78C /* ParkingSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B055BCF2B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpot" */;
+			buildPhases = (
+				8B055BA52B122C9400C5C78C /* Sources */,
+				8B055BA62B122C9400C5C78C /* Frameworks */,
+				8B055BA72B122C9400C5C78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingSpot;
+			productName = ParkingSpot;
+			productReference = 8B055BA92B122C9400C5C78C /* ParkingSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B055BBA2B122C9500C5C78C /* ParkingSpotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B055BD22B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpotTests" */;
+			buildPhases = (
+				8B055BB72B122C9500C5C78C /* Sources */,
+				8B055BB82B122C9500C5C78C /* Frameworks */,
+				8B055BB92B122C9500C5C78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B055BBD2B122C9500C5C78C /* PBXTargetDependency */,
+			);
+			name = ParkingSpotTests;
+			productName = ParkingSpotTests;
+			productReference = 8B055BBB2B122C9500C5C78C /* ParkingSpotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B055BC42B122C9500C5C78C /* ParkingSpotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B055BD52B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpotUITests" */;
+			buildPhases = (
+				8B055BC12B122C9500C5C78C /* Sources */,
+				8B055BC22B122C9500C5C78C /* Frameworks */,
+				8B055BC32B122C9500C5C78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B055BC72B122C9500C5C78C /* PBXTargetDependency */,
+			);
+			name = ParkingSpotUITests;
+			productName = ParkingSpotUITests;
+			productReference = 8B055BC52B122C9500C5C78C /* ParkingSpotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B055BA12B122C9400C5C78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8B055BA82B122C9400C5C78C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8B055BBA2B122C9500C5C78C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8B055BA82B122C9400C5C78C;
+					};
+					8B055BC42B122C9500C5C78C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8B055BA82B122C9400C5C78C;
+					};
+				};
+			};
+			buildConfigurationList = 8B055BA42B122C9400C5C78C /* Build configuration list for PBXProject "ParkingSpot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B055BA02B122C9400C5C78C;
+			productRefGroup = 8B055BAA2B122C9400C5C78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B055BA82B122C9400C5C78C /* ParkingSpot */,
+				8B055BBA2B122C9500C5C78C /* ParkingSpotTests */,
+				8B055BC42B122C9500C5C78C /* ParkingSpotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B055BA72B122C9400C5C78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B055BB62B122C9500C5C78C /* Preview Assets.xcassets in Resources */,
+				8B055BB32B122C9500C5C78C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BB92B122C9500C5C78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BC32B122C9500C5C78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B055BA52B122C9400C5C78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B055BAF2B122C9400C5C78C /* ContentView.swift in Sources */,
+				8B055BB12B122C9400C5C78C /* Item.swift in Sources */,
+				8B055BAD2B122C9400C5C78C /* ParkingSpotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BB72B122C9500C5C78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B055BC02B122C9500C5C78C /* ParkingSpotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B055BC12B122C9500C5C78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B055BCA2B122C9500C5C78C /* ParkingSpotUITests.swift in Sources */,
+				8B055BCC2B122C9500C5C78C /* ParkingSpotUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B055BBD2B122C9500C5C78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B055BA82B122C9400C5C78C /* ParkingSpot */;
+			targetProxy = 8B055BBC2B122C9500C5C78C /* PBXContainerItemProxy */;
+		};
+		8B055BC72B122C9500C5C78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B055BA82B122C9400C5C78C /* ParkingSpot */;
+			targetProxy = 8B055BC62B122C9500C5C78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B055BCD2B122C9500C5C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B055BCE2B122C9500C5C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B055BD02B122C9500C5C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkingSpot/Preview Content\"";
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B055BD12B122C9500C5C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParkingSpot/Preview Content\"";
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B055BD32B122C9500C5C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingSpot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkingSpot";
+			};
+			name = Debug;
+		};
+		8B055BD42B122C9500C5C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkingSpot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParkingSpot";
+			};
+			name = Release;
+		};
+		8B055BD62B122C9500C5C78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkingSpot;
+			};
+			name = Debug;
+		};
+		8B055BD72B122C9500C5C78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MU569YV3Y3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appboong.ParkingSpotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParkingSpot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B055BA42B122C9400C5C78C /* Build configuration list for PBXProject "ParkingSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B055BCD2B122C9500C5C78C /* Debug */,
+				8B055BCE2B122C9500C5C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B055BCF2B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B055BD02B122C9500C5C78C /* Debug */,
+				8B055BD12B122C9500C5C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B055BD22B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B055BD32B122C9500C5C78C /* Debug */,
+				8B055BD42B122C9500C5C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B055BD52B122C9500C5C78C /* Build configuration list for PBXNativeTarget "ParkingSpotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B055BD62B122C9500C5C78C /* Debug */,
+				8B055BD72B122C9500C5C78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B055BA12B122C9400C5C78C /* Project object */;
+}
